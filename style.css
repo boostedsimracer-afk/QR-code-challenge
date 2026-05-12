@@ -1,0 +1,48 @@
+body 
+{
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main-box
+{
+    width: 300px;
+    height: 480px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Qrcode img
+{
+    width: 275px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+.Text-1 h1
+{
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: hsl(218, 44%, 22%)
+}
+
+.Text-2 h3
+{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; 
+    color: hsl(220, 15%, 55%);
+}
